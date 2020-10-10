@@ -1,0 +1,26 @@
+@import '../../styles';
+
+:host{
+    position: fixed;
+    top:0;
+    width: 100%;
+
+    .nav-bar{
+        height: 75px;
+        background-color: $darker-blue;
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+        align-items: center;
+        // box-sizing: border-box;
+        // padding: 0 35px;
+
+        .link{
+            margin-right: 35px;
+            a{
+                color: whitesmoke;
+                font-size: 20px;
+            }
+        }
+    }
+}
